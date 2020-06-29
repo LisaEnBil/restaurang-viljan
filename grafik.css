@@ -1,0 +1,14 @@
+.overflow {
+    overflow-y: scroll;
+}
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+.pastries-on-tray {
+    height: 800px;
+}
