@@ -2,8 +2,10 @@
     overflow-y: scroll;
 }
 .container {
-    position: absolute;
+    position: relative;
     text-align: center;
+    font-size: large;
+    font-family: PT serif;
     color: white;
     right: 0px;
     left: 0px;
@@ -11,4 +13,41 @@
 }
 .pastries-on-tray {
     height: 800px;
+}
+.om-oss {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+.restaurang-cafe {
+    position: absolute;
+    top: 50px;
+    left: 550px;
+
+}
+.meny {
+    position: absolute;
+    top: 50px;
+    right: 560px;
+}
+.hitta-hit {
+    position: absolute;
+    top: 50px;
+    right: 360px;
+
+}
+h1 {
+    font-family: PT serif;
+    font-size: 50px;
+    position: relative;
+    color: black;
+    top: 50px;
+    left: 650px;
+}
+p {
+    font-family: PT serif;
+    position: relative;
+    color: black;
+    top: 50px;
+    left: 500px;
 }
