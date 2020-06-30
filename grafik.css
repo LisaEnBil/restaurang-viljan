@@ -1,3 +1,8 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 .overflow {
     overflow-y: scroll;
 }
@@ -7,15 +12,21 @@
     font-size: large;
     font-family: PT serif;
     text-decoration: none;
-}
-.container::before {
- color:black;
+    right: 0px;
+    left: 0px;
+    top: 0px;
 }
 .pastries-on-tray {
     right: 0px;
     left: 0px;
     top: 0px;
     height: 800px;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
 }
 .nav-item {
     position: absolute;
