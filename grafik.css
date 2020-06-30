@@ -3,24 +3,20 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
-.overflow {
-    overflow-y: scroll;
+h1 {
+    font-family: PT serif ;
+    font-size: 50px;
+    position: relative;
+    color: black;
+    top: 50px;
 }
-.container {
+p {
+    font-family: PT serif;
     position: relative;
     text-align: center;
-    font-size: large;
-    font-family: PT serif;
-    text-decoration: none;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-}
-.pastries-on-tray {
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    height: 800px;
+    padding-left: 0pt;
+    color: black;
+    top: 50px;
 }
 a:link {
     color: black;
@@ -28,46 +24,52 @@ a:link {
 a:visited {
     color: black;
 }
+.overflow {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container {
+    position: relative;
+    font-size: large;
+    font-family: PT serif;
+    text-decoration: none;
+}
+.pastries-on-tray {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 800px;
+}
 .nav-item {
     position: absolute;
     top: 50px;
-    left: 350px;
+    left: 20%;
+   
 }
 .nav-item-2 {
     position: absolute;
     top: 50px;
-    left: 550px;
-
+    left: 35%;
+    
 }
 .nav-item-3 {
     position: absolute;
     top: 50px;
-    right: 560px;
+    left:57%;
 }
 .nav-item-4 {
     position: absolute;
     top: 50px;
-    right: 360px;
-
-}
-h1 {
-    font-family: PT serif;
-    font-size: 50px;
-    position: relative;
-    color: black;
-    top: 50px;
-    left: 650px;
-}
-p {
-    font-family: PT serif;
-    position: relative;
-    color: black;
-    top: 50px;
-    left: 500px;
+    left:70%
 }
 #om-oss {
-    left: 600px;
+    position: relative;
+    text-align: center;
+    padding-left: 0pt;
 }
 #restaurang-cafe {
-    left: 460px;
+    position: relative;
+    text-align: center;
+    padding-left: 0pt;
 }
