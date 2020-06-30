@@ -6,31 +6,34 @@
     text-align: center;
     font-size: large;
     font-family: PT serif;
-    color: white;
+    text-decoration: none;
+}
+.container::before {
+ color:black;
+}
+.pastries-on-tray {
     right: 0px;
     left: 0px;
     top: 0px;
-}
-.pastries-on-tray {
     height: 800px;
 }
-.om-oss {
+.nav-item {
     position: absolute;
     top: 50px;
     left: 350px;
 }
-.restaurang-cafe {
+.nav-item-2 {
     position: absolute;
     top: 50px;
     left: 550px;
 
 }
-.meny {
+.nav-item-3 {
     position: absolute;
     top: 50px;
     right: 560px;
 }
-.hitta-hit {
+.nav-item-4 {
     position: absolute;
     top: 50px;
     right: 360px;
@@ -50,4 +53,10 @@ p {
     color: black;
     top: 50px;
     left: 500px;
+}
+#om-oss {
+    left: 600px;
+}
+#restaurang-cafe {
+    left: 460px;
 }

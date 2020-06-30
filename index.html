@@ -7,22 +7,44 @@
     <link rel="stylesheet" type="text/css" href="grafik.css">
     <title>Restaurang Viljan</title>
 </head>
-
+<STYLE>A {text-decoration: none;} </STYLE>
 <body>
+    <header>
+        <div class="header">
+            <a href="/" class="logo">
+                ####logo
+            </a>
+        </div>
+    </header>
+    
     <div class="overflow">
         <div class="container">
-            <img class="pastries-on-tray" src="cake-tray.jpg" alt="pastries on tray">
-            <div class="om-oss">OM OSS</div>
-            <div class="restaurang-cafe">RESTAURANG/CAFÈ</div>
-            <div class="meny">MENY</div>
-            <div class="hitta-hit">HITTA HIT</div>
+            <img class="pastries-on-tray" src="cake-tray.jpg" alt="pastries on tray" style="width: 100%;">
+            <div class="nav-item">
+                <a href="#om-oss" class="nav_link js-scroll-to">OM OSS</a>
+            </div> 
+            <div class="nav-item-2">
+                <a href="#restaurang-cafe" class="nav_link js-scroll-to">RESTAURANG/CAFÈ</a>
+            </div> 
+            <div class="nav-item-3">
+                <a href="#meny" class="nav_link js-scroll-to">MENY</a>
+            </div> 
+            <div class="nav-item-4">
+                <a href="#hitta-hit" class="nav_link js-scroll-to">HITTA HIT</a>
+            </div> 
         </div>
         <div>
-            <h1>Om Oss</h1>
+            <h1 id="om-oss">OM OSS</h1>
             <div>
                 <p>Hårdkodad text om viljan reastaurang och café</p>
             </div>
 
+        </div>
+        <div>
+            <h1 id="restaurang-cafe">RESTAURANG/CAFÉ</h1>
+            <div>
+                <p>Lite text om själva restaurangen och caféet och vad de gör</p>
+            </div>
         </div>
     </div>
 </body>
