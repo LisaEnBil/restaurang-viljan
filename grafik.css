@@ -18,11 +18,32 @@ p {
     color: black;
     top: 50px;
 }
+a {
+    display: block;
+    padding:15px;
+}
 a:link {
     color: black;
 }
 a:visited {
     color: black;
+}
+li {
+    float: left;
+    padding-left: 130px;
+}
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+  }
+.nav-items {
+    position: absolute;
+    top: 50px;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    
 }
 .overflow {
     overflow-y: scroll;
@@ -41,35 +62,12 @@ a:visited {
     top: 0px;
     height: 800px;
 }
-.nav-item {
-    position: absolute;
-    top: 50px;
-    left: 20%;
-   
+.viljan {
+    height: 60px;
 }
-.nav-item-2 {
-    position: absolute;
-    top: 50px;
-    left: 35%;
-    
-}
-.nav-item-3 {
-    position: absolute;
-    top: 50px;
-    left:57%;
-}
-.nav-item-4 {
-    position: absolute;
-    top: 50px;
-    left:70%
-}
-#om-oss {
+#content {
     position: relative;
     text-align: center;
     padding-left: 0pt;
 }
-#restaurang-cafe {
-    position: relative;
-    text-align: center;
-    padding-left: 0pt;
-}
+
