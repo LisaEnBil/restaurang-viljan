@@ -1,0 +1,23 @@
+{
+  "name": "restaurangviljan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "rss-parser": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisaEnBil/restaurang-viljan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LisaEnBil/restaurang-viljan/issues"
+  },
+  "homepage": "https://github.com/LisaEnBil/restaurang-viljan#readme"
+}

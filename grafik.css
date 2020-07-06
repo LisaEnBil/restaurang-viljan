@@ -9,11 +9,11 @@ a {
     padding:15px;
 }
 a:link {
-    color: black;
+    color: #C9C9C9;
     text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: #C9C9C9;
     text-decoration: none;
 }
 iframe {
@@ -25,12 +25,10 @@ li {
     padding-left: 130px;
 }
 ul {
-    position: sticky;
     list-style-type: none;
     margin: 0;
   }
 .nav-items {
-    position: absolute;
     top: 50px;
     float: left;
     text-align: center;
@@ -38,16 +36,19 @@ ul {
     
 }
 .overflow {
+    position: absolute;
     overflow-y: scroll;
     overflow-x: hidden;
+    z-index: -1;
+    
 }
 .container {
-    position: relative;
+    position: fixed;
     font-size: large;
     font-family: PT serif;
     text-decoration: none;
 }
-.pastries-on-tray {
+.restaurant {
     position: relative;
     right: 0px;
     left: 0px;
