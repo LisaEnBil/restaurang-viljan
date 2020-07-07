@@ -3,6 +3,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+    overflow-x: hidden;
 }
 a {
     display: block;
@@ -16,9 +17,13 @@ a:visited {
     color: #C9C9C9;
     text-decoration: none;
 }
-iframe {
-    width: 80%;
-    height: 800px;
+#menu-frame {
+    width: 50%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 li {
     float: left;
@@ -27,6 +32,28 @@ li {
 ul {
     list-style-type: none;
     margin: 0;
+}
+.coffee-cups {
+    position: relative;
+    float: left;
+    width: 50%;
+    
+}
+.div-menu {
+    color: #3B3939;
+    border: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.find-us {
+    background-color: #C9C9C9;
+    padding-bottom: 50px;
+    
+}
+.heart {
+    position: relative;
+    width: 50%;
+
 }
 .nav-items {
     top: 50px;
@@ -38,15 +65,8 @@ ul {
 .overflow {
     position: absolute;
     overflow-y: scroll;
-    overflow-x: hidden;
     z-index: -1;
     
-}
-.container {
-    position: fixed;
-    font-size: large;
-    font-family: PT serif;
-    text-decoration: none;
 }
 .restaurant {
     position: relative;
@@ -54,9 +74,25 @@ ul {
     left: 0px;
     top: 0px;
     height: 800px;
+    z-index: 1;
 }
 .viljan {
     height: 60px;
+}
+#contact {
+    position: relative;
+    background-color: #3B3939;
+    color: #C9C9C9;
+    font-weight: normal;
+    bottom: 0;
+}
+#container {
+    position: fixed;
+    font-size: large;
+    font-family: PT serif;
+    text-decoration: none;
+    background-color: linear-gradient(#3B3939);
+    z-index: 2;
 }
 #content {
     position: relative;
@@ -71,6 +107,7 @@ ul {
     font-size: 50px;
     position: relative;
     top: 50px;
+    padding-bottom: 50px;
 }
 #content p {
     font-family: PT serif;
@@ -80,22 +117,33 @@ ul {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    padding-bottom: 50px;
+    
 }
 #content hr {
     width: 10%;
-
 }
-#div-menu {
-
-    height:500px;
-    width: 800px;
+#map{
+    width: 350px;
+    height: 350px;
+}
+#map-box {
+    padding-top: 50px;
+}
+.open-hours {
     position: relative;
-    text-align: left;
-    color: #3B3939;
-    border: 1px;
-    font-family: PT serif;
-    text-decoration: none;
+    margin-left: 30%
+
 }
+.contact-information {
+    position: relative;
+    margin-right: 35%;
+    text-align: left;
 
-
-
+}
+#pictures {
+    position: relative;
+    padding-top:75px;
+    
+    
+}
