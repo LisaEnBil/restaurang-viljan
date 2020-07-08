@@ -73,8 +73,7 @@ ul {
 }
 #pictures {
     position: relative;
-    padding-top: 75px;
-      
+    padding-top: 75px;    
 }
 .coffee-cups {
     position: relative;
@@ -92,8 +91,9 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#restaurant-cafe {
-    height: 60px;
+.restaurant-cafe {
+    background-color: #C9C9C9;
+    margin-top: -3%;
 }
 .find-us {
     background-color: #C9C9C9;
@@ -102,19 +102,7 @@ ul {
 hr.find-line {
     border: 0.5px solid #3B3939;
 }
-#contact {
-    box-sizing: border-box;
-    position: relative;
-    background-color: #3B3939;
-    color: #C9C9C9;
-    padding-top: 2%;
-    font-size: 14px;
-    
-}
-#contact p {
-    font-family: 'Noto Sans JP', sans-serif;
-    line-height: 1.5;
-}
+
 .content {
     position: relative;
     text-align: center;
@@ -150,6 +138,19 @@ hr.find-line {
 }
 #map-box {
     padding-top: 50px;
+}
+#contact {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #3B3939;
+    color: #C9C9C9;
+    padding-top: 2%;
+    font-size: 14px;
+    
+}
+#contact p {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
 }
 @font-face {
     font-family: 'Noto Sans JP', sans-serif;
