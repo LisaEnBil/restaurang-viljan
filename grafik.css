@@ -8,13 +8,14 @@ body {
 a {
     display: block;
     padding:15px;
+    
 }
 a:link {
-    color: #C9C9C9;
+    color: #3B3939;
     text-decoration: none;
 }
 a:visited {
-    color: #C9C9C9;
+    color: #3B3939;
     text-decoration: none;
 }
 #menu-frame {
@@ -33,6 +34,9 @@ ul {
     list-style-type: none;
     margin: 0;
 }
+.viljan-logo {
+    height: 100px;
+}
 .coffee-cups {
     position: relative;
     float: left;
@@ -45,10 +49,18 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .find-us {
     background-color: #C9C9C9;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;   
+}
+hr.find-line {
+    border: 0.5px solid #3B3939;
+}
+#pictures {
+    position: relative;
+    padding-top:75px;
+      
 }
 .heart {
     position: relative;
@@ -59,8 +71,8 @@ ul {
     top: 50px;
     float: left;
     text-align: center;
-    padding: 14px 16px;
-    
+    padding: 14px;
+    height: 55px; 
 }
 .overflow {
     position: absolute;
@@ -76,40 +88,45 @@ ul {
     height: 800px;
     z-index: 1;
 }
-.viljan {
-    height: 60px;
-}
+
 #contact {
+    box-sizing: border-box;
     position: relative;
     background-color: #3B3939;
     color: #C9C9C9;
-    font-weight: normal;
-    bottom: 0;
+    padding-top: 2%;
+    font-size: 14px;
+    
+}
+#contact p {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
 }
 #container {
     position: fixed;
     font-size: large;
     font-family: PT serif;
     text-decoration: none;
-    background-color: linear-gradient(#3B3939);
     z-index: 2;
+    left: 0;
+    right: 0;   
 }
-#content {
+.content {
     position: relative;
     text-align: center;
     padding-left: 0pt;
     color: #3B3939;
-    
+  
 }
-#content h1 {
-    font-family: PT serif ;
+.content h1 {
+    font-family: PT serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     top: 50px;
     padding-bottom: 50px;
 }
-#content p {
+.content p{
     font-family: PT serif;
     position: relative;
     top: 50px;
@@ -118,9 +135,8 @@ ul {
     margin-right: auto;
     text-align: left;
     padding-bottom: 50px;
-    
 }
-#content hr {
+.content hr {
     width: 10%;
 }
 #map{
@@ -130,20 +146,29 @@ ul {
 #map-box {
     padding-top: 50px;
 }
+@font-face {
+    font-family: 'Noto Sans JP', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
+}
 .open-hours {
     position: relative;
-    margin-left: 30%
-
+    float: left;
+    padding-left: 15%;
+    padding-right: 35%;
 }
 .contact-information {
-    position: relative;
-    margin-right: 35%;
-    text-align: left;
+    position: relative; 
+}
+#logos {
+    box-sizing: border-box;
+}
+.facebook {
+    height: 50px;
+    float: center;
+    padding: 10px;
+}
+.wordpress {
+    height: 60px;
 
 }
-#pictures {
-    position: relative;
-    padding-top:75px;
-    
-    
-}
+
