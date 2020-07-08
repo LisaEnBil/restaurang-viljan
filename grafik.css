@@ -5,17 +5,31 @@ body {
     margin-bottom: 0;
     overflow-x: hidden;
 }
+.overflow {
+    position: absolute;
+    overflow-y: scroll;
+    z-index: -1;
+    
+}
+.restaurant-pic {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 800px;
+    z-index: 1;
+}
 a {
     display: block;
     padding:15px;
     
 }
 a:link {
-    color: #3B3939;
+    color: #eff5f5;
     text-decoration: none;
 }
 a:visited {
-    color: #3B3939;
+    color: #eff5f5;
     text-decoration: none;
 }
 #menu-frame {
@@ -37,35 +51,15 @@ ul {
 .viljan-logo {
     height: 100px;
 }
-.coffee-cups {
-    position: relative;
-    float: left;
-    width: 50%;
-    
-}
-.div-menu {
-    color: #3B3939;
-    border: 5px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.find-us {
-    background-color: #C9C9C9;
-    padding-bottom: 50px;   
-}
-hr.find-line {
-    border: 0.5px solid #3B3939;
-}
-#pictures {
-    position: relative;
-    padding-top:75px;
-      
-}
-.heart {
-    position: relative;
-    width: 50%;
-
+#container {
+    background-color: #3B393970;
+    position: fixed;
+    font-size: large;
+    font-family: PT serif;
+    text-decoration: none;
+    z-index: 2;
+    left: 0;
+    right: 0;   
 }
 .nav-items {
     top: 50px;
@@ -74,21 +68,40 @@ hr.find-line {
     padding: 14px;
     height: 55px; 
 }
-.overflow {
-    position: absolute;
-    overflow-y: scroll;
-    z-index: -1;
-    
+#about-us {
+    height: 0px;
 }
-.restaurant {
+#pictures {
     position: relative;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    height: 800px;
-    z-index: 1;
+    padding-top: 75px;
+      
 }
+.coffee-cups {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.heart {
+    position: relative;
+    width: 50%;
 
+}
+.div-menu {
+    color: #3B3939;
+    border: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#restaurant-cafe {
+    height: 60px;
+}
+.find-us {
+    background-color: #C9C9C9;
+    padding-bottom: 50px;
+}
+hr.find-line {
+    border: 0.5px solid #3B3939;
+}
 #contact {
     box-sizing: border-box;
     position: relative;
@@ -101,15 +114,6 @@ hr.find-line {
 #contact p {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.5;
-}
-#container {
-    position: fixed;
-    font-size: large;
-    font-family: PT serif;
-    text-decoration: none;
-    z-index: 2;
-    left: 0;
-    right: 0;   
 }
 .content {
     position: relative;
@@ -125,6 +129,7 @@ hr.find-line {
     position: relative;
     top: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 .content p{
     font-family: PT serif;
@@ -160,15 +165,23 @@ hr.find-line {
     position: relative; 
 }
 #logos {
-    box-sizing: border-box;
+    position: relative; 
+    box-sizing: border-box; 
 }
-.facebook {
-    height: 50px;
-    float: center;
-    padding: 10px;
+#logos::after {
+    content: "";
+    clear: both;
 }
-.wordpress {
+#logos #link {
+    float: center; 
+    display: inline-table;
+}
+#facebook {
+    height: 50px; 
+    padding-bottom: 10px;
+    padding-right: 3px;  
+}
+#wordpress {
     height: 60px;
-
 }
 
